@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api_key: 
-    secure: HEROKU-API-KEY
+    secure: $HEROKU-API-KEY
   app: deivison-devopslabs
